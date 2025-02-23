@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;          /* Full height of the viewport */
+  width: 100%;           /* Full width of the viewport */
+  margin: 0 !important;             /* Remove default margin */
+  padding: 0 !important;            /* Remove default padding */
+  display: flex;         /* Flexbox to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center;   /* Center vertically */
+  background: #000;      /* Set background color */
+  overflow: hidden;      /* Prevent scrolling or overflow */
+  position: relative
+}
+
+.calculator-container {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  min-height: 100vh;        /* Ensure the container is at least the full height */
+  min-width: 100vw;         /* Ensure the container is at least the full width */
+  background: #000;         /* Optional: background color */
+  margin: 0;                /* Remove any margin */
+  padding: 0;               /* Remove any padding */
+}
+
+app-calculator {
+  width: 100vw;    /* Full width of the viewport */
+  height: auto;   /* Full height of the viewport */
+  background: #000; /* Optional: background color */
+}

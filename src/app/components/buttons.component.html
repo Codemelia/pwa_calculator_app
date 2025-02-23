@@ -1,0 +1,7 @@
+<div class="buttons-grid">
+    @for (btn of buttons; let idx = $index; track $index) {
+        <app-button [button]="btn" 
+            (buttonClick)="onButtonClick($event)">
+        </app-button>
+    }
+</div>
