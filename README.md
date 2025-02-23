@@ -6,7 +6,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 The PWA icon files were generated using pwa factory.
 To use icon files as app icon, import manifest.json and include in index.html:
-<link rel="manifest" href="/manifest.json">
+link rel="manifest" href="/manifest.json"
 
 ## Development server
 
